@@ -1,10 +1,10 @@
 import './App.css';
-import Prueba from './prueba/Prueba';
+import ButtonCount from './prueba/ButtonCount';
 
 function App() {
   return (
     <div className="App">
-      <Prueba />
+      <ButtonCount />
     </div>
   );
 }

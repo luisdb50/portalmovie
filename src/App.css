@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.div_counter {
+  border-bottom: 3px;
+  width: 30px;
+  margin: auto;
+}
+
+.div_counter-blue {
+  border-bottom: solid 3px blue;
+  width: 30px;
+  margin: auto;
+}
+
+.div_counter-red {
+  border-bottom: solid 3px red;
+  width: 30px;
+  margin: auto;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 20px;
+}
