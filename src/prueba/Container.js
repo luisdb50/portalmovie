@@ -3,9 +3,6 @@ import '../App.css';
 
 export default function Container(props){
     
-
-
-    
     return(
         <div className="div_viewport">
             <div className="div_container">

@@ -64,3 +64,9 @@ p {
   font-family: 'Itim', cursive;
   text-shadow: 1px 1px #000;
 }
+
+.div_color{
+  margin: 10px;
+  background-color: red;
+  height: 10px;
+}
