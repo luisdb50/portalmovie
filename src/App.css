@@ -70,3 +70,45 @@ p {
   background-color: red;
   height: 10px;
 }
+
+.bar-red:first-child{
+  position: absolute;
+  margin: 80px 50px;
+  background-color: red;
+  width: 60px;
+  height: 20px;
+  transform: rotate(60deg);
+  border-top-right-radius: 75%;
+}
+
+.bar-red:nth-child(2){
+  position: absolute;
+  margin: 60px 60px;
+  background-color: red;
+  width: 100px;
+  height: 20px;
+  transform: rotate(-60deg);
+  border-bottom-left-radius: 15%;
+  border-top-left-radius: 25%;
+}
+
+.bar-blue:first-child{
+  position: absolute;
+  margin: 80px 50px;
+  background-color: blue;
+  width: 60px;
+  height: 20px;
+  transform: rotate(60deg);
+  border-top-right-radius: 75%;
+}
+
+.bar-blue:nth-child(2){
+  position: absolute;
+  margin: 60px 60px;
+  background-color: blue;
+  width: 100px;
+  height: 20px;
+  transform: rotate(-60deg);
+  border-bottom-left-radius: 15%;
+  border-top-left-radius: 25%;
+}
