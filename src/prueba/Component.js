@@ -28,18 +28,19 @@ export default class Component extends React.Component{
     render(){
 
         console.log(this.state.ramdon);
+        let n= this.state.ramdon;
 
         return(
-            <div>
+            <div className="separate">
                 {this.state.ramdon === 0 
                     ? <div>El aleatorio es cero</div> 
-                    : this.state.ramdon % 2 === 0 ? <BarBlue /> : <BarRed />}
+                    : this.state.ramdon % 2 === 0 ? <BarBlue n={n}/> : <BarRed n={n}/>}
             </div>
         );
     }
 }
 
-function BarRed(){
+function BarRed(props){
     
     console.log("Rojo")
 
@@ -49,12 +50,12 @@ function BarRed(){
 
     return(
         <div>
-            {element}
+            {element} {props.n}
         </div>    
     );
 }
 
-function BarBlue(){
+function BarBlue(props){
 
     console.log("Azul")
 
@@ -64,7 +65,7 @@ function BarBlue(){
 
     return(
         <div>
-            {element}
+            {element} {props.n}
         </div>    
     );
 }
