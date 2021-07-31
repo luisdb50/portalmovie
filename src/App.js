@@ -1,10 +1,10 @@
 import './App.css';
-import { InitComponent } from './prueba/InitComponent';
+import { Formu } from './prueba/Formu';
 
 function App() {
   return (
     <div className="App">
-      <InitComponent />
+      <Formu />
     </div>
   );
 }
