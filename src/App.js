@@ -1,10 +1,10 @@
 import './App.css';
-import { Formu } from './prueba/Formu';
+import { Table } from './prueba/Table';
 
 function App() {
   return (
     <div className="App">
-      <Formu />
+      <Table />
     </div>
   );
 }
